@@ -8,12 +8,34 @@ h1 {
     background-color: lightblue;
 }
 
-a {
+nav {
+    margin: 0 auto;
     color: black;
-    background-color:  lightsteelblue;
+    text-align: center;
+    padding: 5px;
 }
 
+nav a{
+    background-color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+
 img{
-    height: auto;
-    width: 600px;
+    height: 400px;
+    width: 400px;
+}
+
+a img{
+    width: 250px;
+    height: 250px;
+}
+
+a img:hover{
+    width: 300px;
+    height: 300px;
+    
 }
