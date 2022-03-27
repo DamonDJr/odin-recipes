@@ -11,12 +11,12 @@ h1 {
 nav {
     margin: 0 auto;
     color: black;
-    text-align: center;
-    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+
 }
 
 nav a{
-    background-color: white;
     text-decoration: none;
     text-transform: uppercase;
 }
